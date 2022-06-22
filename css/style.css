@@ -1,0 +1,29 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: rgb(48, 48, 253);
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.inner-content{
+    background-color: green;
+    padding: 15px;
+    border-right: 1px solid blue;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.empty-content{
+    background-color: rgb(48, 48, 253);
+    height: 50px;
+    border: 1px solid white;
+}
